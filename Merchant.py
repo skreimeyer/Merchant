@@ -134,7 +134,9 @@ class Scraper:
 class AnalyticsEngine:
     '''
     This class contains methods for statistical methods and
-    visualization of market data.
+    visualization of market data. This will eventually support
+    a notifier class of methods which will provide email or
+    SMS notification to a user.
     '''
 
     import pandas as pd
